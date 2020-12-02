@@ -1,3 +1,4 @@
+import java.util.Scanner;
 
 public class ConsoleIoLecture{
     public static void main(String[] args) {
@@ -30,7 +31,13 @@ public class ConsoleIoLecture{
         //TODO TOGETHER: Print a formatted string using the following... printf(formatString, data)
 
 
+//        System.out.printf("Hello%n");
+//        System.out.printf("world");
 
+
+        String name = "Vivian";
+
+        System.out.printf("Hello %s%n", name);//Hello Vivian (%s is a placeholder and %S will capitalize the place holder) name is what will replace the placeholder
 
         //TODO TOGETHER:
         // (1) Create a string variable
@@ -43,7 +50,7 @@ public class ConsoleIoLecture{
 
 
         //TODO: Remove the %n from the first printf. What do you notice?
-
+//       //there was no new line and everything was placed together on the same line
         // >>>> Multiple Variables
 
 
@@ -53,12 +60,18 @@ public class ConsoleIoLecture{
         // note: d : decimal integer [byte, short, int, long]
 
 
-
+//        int three = 3;
+//        String  typeOfPet = "cats";
+//
+//        System.out.printf("I have %d %s%n", three, typeOfPet);
 
         //TODO:
         // (1) Print using printf(), multiple variables, and placeholders
 
+        int amount = 3;
+        String distance = "miles";
 
+        System.out.printf("Today I ran %d %s!%n", amount, distance);
 
         // >>>> Currency
 
@@ -70,6 +83,8 @@ public class ConsoleIoLecture{
         // (1) Create int variable currencyPennies
         // (2) Print variable using currency formatting
 
+        int currencyPennies = 1000;
+        System.out.printf("I'll sell you land for $%.2f an acre!%n", currencyPennies/100.00);//$.2f represents the placeholder, the 2 tells us how many decimal places it wil have
 
 
         /* ***************************************
@@ -78,18 +93,29 @@ public class ConsoleIoLecture{
         // The Scanner class allows us to get data input that the user enters into the console.
         // Scanner Docs ==> http://www.cs.utexas.edu/users/ndale/Scanner.html
 
-
+        Scanner userInput = new Scanner(System.in);
 
 
         // >>>> .next() method
         // .next() captures each input usually signified by whitespace. The input is returned as a string
 
 
-
+//        System.out.println("Please enter your first, middle, and last name.");
+//        String firstName = userInput.next();
+//        String middleName = userInput.next();
+//        String lastName = userInput.next();
+//
+//        System.out.println(firstName);
+//        System.out.println(middleName);
+//        System.out.println(lastName);
 
         // >>>> .nextInt() method
         // .nextInt() captures the first valid int value
 
+
+//        System.out.println("Please enter your age.");
+//        int age = userInput.nextInt();
+//        System.out.println(age);
 
 
 
@@ -97,7 +123,9 @@ public class ConsoleIoLecture{
         // >>>> .nextLine() method
         // .nextLine() Returns the rest of the current line
 
-
+        System.out.println("Enter your favorite quote");
+        String quote = userInput.nextLine();
+        System.out.println(quote);
 
 
 
