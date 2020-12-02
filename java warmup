@@ -1,0 +1,12 @@
+What is the difference between compiled and interpreted languages? Static and dynamic? Which is Java, which is JavaScript?
+What does a compiler do?
+What is a virtual machine?
+What is the difference between bytecode and source code files?
+Do you need the JDK or the JRE to play minecraft?
+Why would you use an IDE as opposed to a simple text editor when writing Java code?
+What is the purpose of the out directory?
+Why does Java have multiple number data types? Why use one over the other?
+Is a string a primative type in Java?
+What is the difference between explicit and implicit casting? What are specific examples?
+What are some differences between char and String types?
+What happens if you store a number in a variable greater than the data type’s constraints?
