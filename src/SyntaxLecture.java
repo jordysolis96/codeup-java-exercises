@@ -170,7 +170,6 @@ public class SyntaxLecture {
 //                System.out.println(num4);
 
 
-
     }
 
 }
