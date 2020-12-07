@@ -10,3 +10,63 @@ Is a string a primative type in Java?
 What is the difference between explicit and implicit casting? What are specific examples?
 What are some differences between char and String types?
 What happens if you store a number in a variable greater than the data type’s constraints?
+
+
+
+
+
+
+
+
+
+-- Reading/Research Questions
+What is a Java method?
+
+Code that us grouped together that can be used over and over again
+Similar to JS functions
+
+Why use additional methods rather than writing all Java code in a main method?
+
+A way to make code more modular.
+Easier to test
+Simpler to debug
+
+What does it mean to ‘call’ or ‘invoke’ a method?
+
+It causes the statements in a method to "run"
+
+What are six parts of a method definition as explained in the curriculum?
+
+visibility
+static/instance
+return type
+name of method
+parameters
+body
+
+In what ways do Java methods differ from JS functions?
+
+syntax is different
+methods are tied in java to class or an object vs. lone functions in JS
+default values require multiple methods vs. syntax in a single function
+parameter data type is fixed vs. flexible
+methods calls have to relate to a main method in java vs. no method
+
+What is a method signature?
+
+method name + parameter list
+add(int x, int y)
+
+What is method overloading?(typically a interview question)
+
+being defined methods with the same name but accept different parameters
+
+Will changing the return type of a method overload it?
+
+
+
+What is recursion and what are the differences/pros/cons compared to iteration?
+
+
+
+What is a StackOverflowError?
