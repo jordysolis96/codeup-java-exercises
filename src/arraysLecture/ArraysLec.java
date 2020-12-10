@@ -1,5 +1,7 @@
 package arraysLecture;
 
+import java.util.Arrays;
+
 public class ArraysLec {
 
     public static void main(String[] args) {
@@ -20,9 +22,9 @@ public class ArraysLec {
 //        nums[0] = 1; //Assign each index to an int variable
 //        nums[1] = 10;
 //        nums [2] = 12;
-//
+
 //        System.out.println(nums); //Type@HashcodeOfObject
-//
+
 //        System.out.println(Arrays.toString(nums)); //this is an Array method
 //
 //        for(int i = 0; i < nums.length; i++){
