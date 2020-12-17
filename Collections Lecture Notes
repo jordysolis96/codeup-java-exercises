@@ -1,13 +1,13 @@
-Java Collections
+Java collections
 
 ### What is a Data Structure?
 
 - A way of storing and organizing data for effective access and modification.
 
-### What are Collections?
+### What are collections?
 
 - A Collection is a data structure that can be used to store and group objects.
-- Java Collections are not part of the native language, but are included in the Java standard library.
+- Java collections are not part of the native language, but are included in the Java standard library.
 - Collection is actually an interface that is extended by a few sub-interfaces like List, Set and Queue.
 - Today we will be covering a specific subtype of List: ArrayList
 
@@ -26,12 +26,12 @@ Java Collections
 
 - The ArrayList type acts like a wrapper around a native Java array.
 - The methods available on an ArrayList allow us to easily manipulate the ArrayList when adding or accessing elements.
-- Unlike Arrays in JavaScript however, ArrayLists can only hold Objects and they must be of the same type.
-- Luckily, Java already provides us with "wrapper" classes around primitive types which will allow us to store data like Integers and Doubles in our Collections.
+- Unlike Arrays in JavaScript however, collections.ArrayLists can only hold Objects and they must be of the same type.
+- Luckily, Java already provides us with "wrapper" classes around primitive types which will allow us to store data like Integers and Doubles in our collections.
 
 ### HashMap
 
-- Similar to Objects in JavaScript, HashMaps store data in key-value pairs
+- Similar to Objects in JavaScript, collections.HashMaps store data in key-value pairs
 - Keys should all be the same type
 - Values should all be the same type
 - Keys and Values do NOT have to be the same type. (ie. Keys are Strings and Values are Integers)
