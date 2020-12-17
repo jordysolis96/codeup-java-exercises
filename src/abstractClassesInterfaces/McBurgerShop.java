@@ -5,7 +5,7 @@
 //
 //public class McBurgerShop implements McFranchise {
 //
-//    // Properties (can have as many custom as we want)
+// Properties (can have as many custom as we want)
 //    protected List<String> menuItems;
 //    protected List<String> menuCategories;
 //    protected int seatingCapacity;
