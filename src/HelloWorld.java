@@ -1,20 +1,22 @@
+import java.sql.SQLOutput;
+
 public class HelloWorld {
 
     public static void main(String[] args) {
         System.out.println("Hello World");
 
-        int myFavoriteNumber = 13;
-        System.out.println(myFavoriteNumber);
-
-        String myString = "Hi there!";
-        System.out.println(myString);
-
-        float myNumber = 3.14F;
-        System.out.println(myNumber);
-
-        double num = 3.14;
-        float myNumber2 = (float) num;
-        System.out.println(myNumber2);
+//        int myFavoriteNumber = 13;
+//        System.out.println(myFavoriteNumber);
+//
+//        String myString = "Hi there!";
+//        System.out.println(myString);
+//
+//        float myNumber = 3.14F;
+//        System.out.println(myNumber);
+//
+//        double num = 3.14;
+//        float myNumber2 = (float) num;
+//        System.out.println(myNumber2);
 
 //        int x = 5;
 //        System.out.println(x++); //this will increment the value but wont show the vale until it's called again
@@ -41,14 +43,46 @@ public class HelloWorld {
 //        x /= y;
 //        y -= x;
 
-        byte test = 127;
+//        byte test = 127;
 //        ERROR = java: incompatible types: possible lossy conversion from int to byte, highest = 127
-        short testing = 32767;
-        int anotherOne = 2147483647;
-        long testers = 999999999;
-        System.out.print(test);
+//        short testing = 32767;
+//        int anotherOne = 2147483647;
+//        long testers = 999999999;
+//        System.out.print(test);
 
-        
+        //This next portion in me doing the same exercises again for more practice!
+        int myFavoriteNumber2 = 19;
+        System.out.print(myFavoriteNumber2);
+
+        String myString2 = "Second run";
+        System.out.println(myString2);
+
+        float myNumber = 3.14F;
+        System.out.println(myNumber);
+
+//        int x = 5;
+//        System.out.println(x++);
+//        System.out.println(x);
+
+//        int x = 5;
+//        System.out.println(++x);
+//        System.out.println(x);
+
+//        String theNumberThree = "three";
+//        Object o = theNumberThree;
+//        int three = (int) o;
+
+//        int x = 4 + 5;
+
+//        int x = 3;
+//        int y = 4 * x;
+
+//        int x = 10;
+//        int y = 2;
+//        x /= y;
+//        y -= x;
+
+
     }
 
 }
