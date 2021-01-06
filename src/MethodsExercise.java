@@ -10,8 +10,8 @@ public class MethodsExercise {
 //        multiply(2, 10);
 //        division(10, 2);
 //        modulus(7, 9);
-//        getInteger(1, 10);
-        dice();
+        getInteger(1, 100);
+//        dice();
 //        factorial(1, 10);
         //        boolean repeat;
 //
@@ -152,17 +152,19 @@ public class MethodsExercise {
 //        System.out.println(mod1 % mod2);
 //        }
 //
-//    public static void getInteger(int min, int max){
-//        Scanner num = new Scanner(System.in);
-//        System.out.println("Enter a number between 1 and 10");
-//        int userInput = num.nextInt();
-//        if(userInput <= 10){
-//            System.out.println("Thank you");
-//        }else{
-//            System.out.println("PLease try again");
-//        }
-//
-//    }
+    public static int getInteger(int min, int max) {
+
+        Scanner num = new Scanner(System.in);
+        System.out.println("Enter a number between 1 and 10");
+        int userInput = num.nextInt();
+        if (userInput <= 100) {
+            System.out.println("Thank you");
+        } else {
+            System.out.println("PLease try again");
+        }
+        return userInput;
+    }
+
 
 //        public static void fact(int min2, int max2){
 //            Scanner newNum = new Scanner(System.in);
@@ -175,31 +177,30 @@ public class MethodsExercise {
 //        }
 //    }
 
-    public static void dice(){
-        Scanner userInput = new Scanner(System.in);
-        boolean rollAgain = false;
-        System.out.println("Would you like to roll some dice? [Y]es");
-        String choice = userInput.next();
-        if(choice.equalsIgnoreCase("Y")){
-            rollAgain = true;
-        } else {
-            rollAgain = false;
+//        public static int dice () {
+//            Scanner userInput = new Scanner(System.in);
+//            boolean rollAgain = false;
+//            System.out.println("Would you like to roll some dice? [Y]es");
+//            String choice = userInput.next();
+//            if (choice.equalsIgnoreCase("Y")) {
+//                rollAgain = true;
+//            } else {
+//                rollAgain = false;
+//            }
+//            while (rollAgain) {
+//                System.out.println("How many sides does your dice have?");
+//                int sides = userInput.nextInt();
+//                for (int i = 1; i < 3; i++) {
+//                    int ran = (int) (Math.random() * sides) + 1;
+//                    System.out.printf("Dice %d landed on: %d%n", i, ran);
+//                }
+//                System.out.println("Would you like to roll some dice? [Y]es");
+//                String again = userInput.next();
+//                if (again.equalsIgnoreCase("Y")) {
+//                    rollAgain = true;
+//                } else {
+//                    rollAgain = false;
+//                }
+//            }
+//
         }
-        while(rollAgain) {
-            System.out.println("How many sides does your dice have?");
-            int sides = userInput.nextInt();
-            for (int i = 1; i < 3; i++) {
-                int ran = (int) (Math.random() * sides) + 1;
-                System.out.printf("Dice %d landed on: %d%n", i, ran);
-            }
-            System.out.println("Would you like to roll some dice? [Y]es");
-            String again = userInput.next();
-            if(again.equalsIgnoreCase("Y")){
-                rollAgain = true;
-            } else {
-                rollAgain = false;
-            }
-        }
-    }
-
-}
