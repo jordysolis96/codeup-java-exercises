@@ -167,7 +167,7 @@ public class Input {
             System.out.printf("enter a integer between %d and %d%n", min, max);
             Num = scanner.nextInt();
         }while(Num < min || Num > max);
-        return this.scanner.nextInt();
+        return Num;
     }
 
     public int getInt(){
