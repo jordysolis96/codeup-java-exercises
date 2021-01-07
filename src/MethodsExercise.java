@@ -11,7 +11,7 @@ public class MethodsExercise {
 //        division(10, 2);
 //        modulus(7, 9);
         getInteger(1, 100);
-//        dice();
+        dice();
 //        factorial(1, 10);
         //        boolean repeat;
 //
@@ -136,7 +136,7 @@ public class MethodsExercise {
 
     }
 
-//    public static void addition(int Num1, int Num2) {
+    //    public static void addition(int Num1, int Num2) {
 //        System.out.println(Num1 + Num2);
 //    }
 //    public static void subtraction(int Sub1, int Sub2){
@@ -177,30 +177,31 @@ public class MethodsExercise {
 //        }
 //    }
 
-//        public static int dice () {
-//            Scanner userInput = new Scanner(System.in);
-//            boolean rollAgain = false;
-//            System.out.println("Would you like to roll some dice? [Y]es");
-//            String choice = userInput.next();
-//            if (choice.equalsIgnoreCase("Y")) {
-//                rollAgain = true;
-//            } else {
-//                rollAgain = false;
-//            }
-//            while (rollAgain) {
-//                System.out.println("How many sides does your dice have?");
-//                int sides = userInput.nextInt();
-//                for (int i = 1; i < 3; i++) {
-//                    int ran = (int) (Math.random() * sides) + 1;
-//                    System.out.printf("Dice %d landed on: %d%n", i, ran);
-//                }
-//                System.out.println("Would you like to roll some dice? [Y]es");
-//                String again = userInput.next();
-//                if (again.equalsIgnoreCase("Y")) {
-//                    rollAgain = true;
-//                } else {
-//                    rollAgain = false;
-//                }
-//            }
-//
+    public static void dice() {
+        Scanner userInput = new Scanner(System.in);
+        boolean rollAgain = false;
+        System.out.println("Would you like to roll some dice? [Y]es");
+        String choice = userInput.next();
+        if (choice.equalsIgnoreCase("Y")) {
+            rollAgain = true;
+        } else {
+            rollAgain = false;
         }
+        while (rollAgain) {
+            System.out.println("How many sides does your dice have?");
+            int sides = userInput.nextInt();
+            for (int i = 1; i < 3; i++) {
+                int ran = (int) (Math.random() * sides) + 1;
+                System.out.printf("Dice %d landed on: %d%n", i, ran);
+            }
+            System.out.println("Would you like to roll some dice? [Y]es");
+            String again = userInput.next();
+            if (again.equalsIgnoreCase("Y")) {
+                rollAgain = true;
+            } else {
+                rollAgain = false;
+            }
+        }
+
+    }
+}
