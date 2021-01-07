@@ -9,30 +9,30 @@ package shapes;
 //        of the Square class that has a side value of 5.
 //        verify that the getPerimeter and getArea methods return 20 and 25, respectively.
 
-public class ShapesTest {
-
-    public static void main(String[] args) {
-
-        Measurable myShape = new Rectangle(5, 4);
-
-        System.out.println("myShape.getArea() = " + myShape.getArea());
-        System.out.println("myShape.getPerimeter() = " + myShape.getPerimeter());
-
-        myShape = new Square(5);
-
-        System.out.println("myShape.getArea() = " + myShape.getArea());
-        System.out.println("myShape.getPerimeter() = " + myShape.getPerimeter());
-
-//        Quadrilateral box1 = new Rectangle(5, 4);
-//        Quadrilateral box2 = new Square(5);
+//public class ShapesTest {
 //
-//        System.out.println("box1.getPerimeter() = " + box1.getPerimeter());
-//        System.out.println("box1.getArea() = " + box1.getArea());
+//    public static void main(String[] args) {
 //
-//        System.out.println("box2.getPerimeter() = " + box2.getPerimeter());
-//        System.out.println("box2.getArea() = " + box2.getArea());
-
-
-    }
-
-}
+//        Measurable myShape = new Rectangle(5, 4);
+//
+//        System.out.println("myShape.getArea() = " + myShape.getArea());
+//        System.out.println("myShape.getPerimeter() = " + myShape.getPerimeter());
+//
+//        myShape = new Square(5);
+//
+//        System.out.println("myShape.getArea() = " + myShape.getArea());
+//        System.out.println("myShape.getPerimeter() = " + myShape.getPerimeter());
+//
+////        Quadrilateral box1 = new Rectangle(5, 4);
+////        Quadrilateral box2 = new Square(5);
+////
+////        System.out.println("box1.getPerimeter() = " + box1.getPerimeter());
+////        System.out.println("box1.getArea() = " + box1.getArea());
+////
+////        System.out.println("box2.getPerimeter() = " + box2.getPerimeter());
+////        System.out.println("box2.getArea() = " + box2.getArea());
+//
+//
+//    }
+//
+//}

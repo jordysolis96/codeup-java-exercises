@@ -180,15 +180,15 @@ public class Input {
         return this.scanner.nextDouble();
     }
 
-    public double getDouble(double min, double max){
-
-        double Num;
-        do{
-            System.out.printf("enter a double between %.2f and %.2f%n", min, max);
-            Num = this.scanner.nextDouble();
-        }while(Num < min || Num > max);
-        return Num;
-    }
+//    public double getDouble(double min, double max){
+//
+//        double Num;
+//        do{
+//            System.out.printf("enter a double between %.2f and %.2f%n", min, max);
+//            Num = this.scanner.nextDouble();
+//        }while(Num < min || Num > max);
+//        return Num;
+//    }
 
 
 }
