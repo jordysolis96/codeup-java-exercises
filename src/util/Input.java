@@ -147,12 +147,48 @@ import java.util.Scanner;
 public class Input {
     private Scanner scanner;
 
+    public Input(){
+        this.scanner = new Scanner(System.in);
+    }
+
     public String getString(){
         return this.scanner.nextLine();
     }
 
     public boolean yesNo(){
         System.out.println("enter [y/n]");
-        return this.scanner.nextBoolean();
+        String input = this.getString();
+        return (input.equalsIgnoreCase("y") || input.equalsIgnoreCase("yes"));
     }
+
+    public int getInt(int min, int max){
+        int Num;
+        do{
+            System.out.printf("enter a integer between %d and %d%n", min, max);
+            Num = scanner.nextInt();
+        }while(Num < min || Num > max);
+        return this.scanner.nextInt();
+    }
+
+    public int getInt(){
+        System.out.println("Enter a integer");
+        return this.scanner.nextInt();
+    }
+
+    public double getDouble(){
+        System.out.println("Enter a double");
+        return this.scanner.nextDouble();
+    }
+
+    public double getDouble(double min, double max){
+
+        double Num;
+        do{
+            System.out.printf("enter a double between %.2f and %.2f%n", min, max);
+            Num = this.scanner.nextDouble();
+        }while(Num < min || Num > max);
+        return Num;
+    }
+
+
 }
