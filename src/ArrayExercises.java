@@ -1,4 +1,4 @@
-//import java.util.Arrays;
+import java.util.Arrays;
 //
 //public class ArrayExercises {
 //    public static void main(String[] args) {
@@ -23,3 +23,33 @@
 //
 //    }
 //}
+//--------------------------------Array Exercise------------------------------------------------
+public class ArrayExercises {
+    public static void main(String[] args) {
+        int[] numbers = {1, 2, 3, 4, 5};
+        System.out.println(Arrays.toString(numbers));
+
+        Person[] people = new Person[3];
+        people[0] = new Person("Alex");
+        people[1] = new Person("Alfredo");
+        people[2] = new Person("Luis");
+
+        for (Person person : people) {
+            System.out.println(person.getName());
+        }
+
+//        Person[] Array2 = addPerson(people, new Person("james"));
+//        for(Person person: Array2){
+//            System.out.println(person.getName());
+//        }
+//
+//
+//        public static Person[] addPerson(Person[] pplArray, Person personToAdd){
+//            Person[] tempArray = Arrays.copyOf(pplArray, pplArray.length+1);
+//            tempArray[tempArray.length-1] = personToAdd;
+//
+//            return tempArray;
+//        }
+    }
+}
+
