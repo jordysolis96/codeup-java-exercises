@@ -1,9 +1,9 @@
-//package movies;
-//
-//import util.Input;
-//
-//import java.util.Arrays;
-//
+package movies;
+
+import util.Input;
+
+import java.util.Arrays;
+
 //public class MoviesApplication {
 //    public static void main(String[] args) {
 //
@@ -82,15 +82,6 @@
 //        return tempArr;
 //    }
 //
-////    public static Movie[] addMovie(Movie[] allMovies, Movie newInput) {
-////
-////        Movie[] tempArr = Arrays.copyOf(allMovies, allMovies.length + 1);
-////        tempArr[tempArr.length - 1] = newMovie;
-////        for (Movie singleMovie : tempArr) {
-////            System.out.println(singleMovie.getMovieName() + " -- " + singleMovie.getMovieCategory());
-////        }
-////        return tempArr;
-////    }
-//
-//
 //}
+
+

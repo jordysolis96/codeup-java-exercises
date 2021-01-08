@@ -26,15 +26,15 @@ import java.util.Random;
 
     private static final String[] nouns = {"man", "woman", "teacher", "home", "love", "office", "money", "car", "table", "dog"};
 
-    public static void main(String[] args) {
-        System.out.println(generateRandomName());
-    }
-
     public static String generateRandomName(){
         int randomNounIndex = new Random().nextInt(10);
         int randomAdjectiveIndex = new Random().nextInt(10);
 
         return adjectives[randomAdjectiveIndex] + "-" + nouns[randomNounIndex];
+    }
+
+    public static void main(String[] args) {
+        System.out.println(generateRandomName());
     }
 
     }

@@ -34,5 +34,6 @@ public class CircleApp{
         Circle circle = new Circle(radius);
         System.out.printf("The area of the circle is: %f%n", circle.getArea());
         System.out.printf("The circumference of the circle is: %f", circle.getCircumference());
+
     }
 }
