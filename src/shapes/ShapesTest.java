@@ -36,5 +36,16 @@ public class ShapesTest{
         System.out.println(box1.getPerimeter());
         System.out.println(box2.getArea());
         System.out.println(box2.getPerimeter());
+
+        Measurable myShape;
+
+        myShape = box1;
+        System.out.println(myShape.getPerimeter());
+        System.out.println(myShape.getArea());
+        myShape = box2;
+        System.out.println(myShape.getPerimeter());
+        System.out.println(myShape.getArea());
+
+
     }
 }

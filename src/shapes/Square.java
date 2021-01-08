@@ -39,7 +39,7 @@ package shapes;
 //        return 4 * this.getLength();
 //    }
 //}
-//------------------------------redo for practice------------------------------------
+//------------------------------redo Inheritance and polymorphism for practice------------------------------------
 public class Square extends Rectangle {
     public Square(double side){
         super(side,side);
@@ -53,3 +53,29 @@ public class Square extends Rectangle {
         return 4 * length;
     }
 }
+//--------------------------redo Interfaces and Abstract Classes for x-practice--------------------------------------
+//public class Square extends Quadrilateral{
+//    public Square(double length, double width) {
+//        super(length, width);
+//    }
+//
+//    @Override
+//    public double getPerimeter() {
+//        return 0;
+//    }
+//
+//    @Override
+//    public double getArea() {
+//        return 0;
+//    }
+//
+//    @Override
+//    public void setLength(double length) {
+//
+//    }
+//
+//    @Override
+//    public void setWidth(double width) {
+//
+//    }
+//}
