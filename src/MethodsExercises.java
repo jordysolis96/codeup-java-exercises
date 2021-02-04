@@ -2,7 +2,7 @@ import java.util.Scanner;
 import java.util.Random;
 import java.lang.Math;
 
-public class MethodsExercise {
+public class MethodsExercises {
     public static void main(String[] args) {
         Scanner input = new Scanner(System.in);
 //        addition(2, 3);

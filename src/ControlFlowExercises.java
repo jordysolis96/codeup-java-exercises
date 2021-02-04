@@ -1,7 +1,7 @@
 import java.sql.SQLOutput;
 import java.util.Scanner;
 
-public class ControlFlowExercise {
+public class ControlFlowExercises {
     public static void main(String[]arg) {
 //Part 1
         //        int i = 5;

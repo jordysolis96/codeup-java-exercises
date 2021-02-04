@@ -37,7 +37,7 @@ public class HighLow{
         do {
             randomNumber = random.nextInt(100) + 1;//what the random num will be
 
-            guess = MethodsExercise.getInteger(1, 100);//what user input will be
+            guess = MethodsExercises.getInteger(1, 100);//what user input will be
 
             if (guess > randomNumber) {//if input is too high
                 System.out.println("Too high!");

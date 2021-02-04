@@ -1,7 +1,7 @@
 import java.util.Scanner;
 import static java.lang.Float.parseFloat;
 
-public class ConsoleExercise {
+public class ConsoleExercises {
 
     public static void main(String[]args) {
 
